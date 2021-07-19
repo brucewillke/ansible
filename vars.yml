@@ -1,0 +1,12 @@
+packages:
+  - git
+  - zfsutils-linux
+  - jq
+  - htop
+  - atop
+  - iftop
+  - sysstat
+  - sl
+  - nfs-common
+
+repo: "https://github.com/brucewillke/airconnect-docker.git"

@@ -1,0 +1,12 @@
+---
+- name: packages
+  hosts: localhost
+  vars_files:
+    - ./vars.yml
+
+  tasks:
+  - name: install packages
+    apt:
+      pkg: "{{ packages }}"
+      state: latest
+
