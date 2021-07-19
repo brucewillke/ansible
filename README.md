@@ -1,4 +1,5 @@
 # ansible
 ansible playbooks 
-Install ansible. 
-To run `ansible-playbook filename.yml`
+Install ansible  
+
+`ansible-playbook filename.yml`
